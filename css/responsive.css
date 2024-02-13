@@ -1,0 +1,101 @@
+/* Estilos para el contenedor principal */
+@media (min-width: 992px) {
+  .container {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+}
+
+/* Estilos para pantallas medianas (max-width: 1199px) */
+@media (max-width: 1199px) {
+  .feature-banner .opacity h2 {
+    padding: 0;
+  }
+  .theme-footer-two .top-footer .footer-gallery .wrapper {
+    padding-right: 0;
+  }
+  .shop-details .product-details .product-info {
+    padding-left: 0;
+  }
+}
+
+/* Estilos para pantallas medianas (min-width: 992px) y (max-width: 1199px) */
+@media (min-width: 992px) and (max-width: 1199px) {
+  .top-feature .main-content {
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+  .header-one .top-header .address-wrapper .address:first-child {
+    margin-right: 20px;
+  }
+  /* ... (otros estilos) ... */
+}
+
+/* Estilos para pantallas pequeñas (max-width: 991px) */
+@media (max-width: 991px) {
+  #mega-menu-holder>ul>li.has-submenu>a {
+    padding-right: 52px;
+    color: #025939;
+    
+  }
+  .section-spacing, .faq-section, .why-we-best, .error-page {
+    margin-bottom: 80px;
+  }
+  .top-feature .main-content {
+    padding: 30px 15px;
+  }
+  .header-one .logo {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .header-one .top-header {
+    padding-top: 25px;
+  }
+}
+
+@media (max-width: 767px) {
+  .about-compnay-two .row {
+      flex-direction: column;
+  }
+
+  .about-compnay-two .col-lg-6 {
+      width: 100%;
+  }
+
+  .about-compnay-two .col-lg-6 img {
+      margin-top: 10px;
+  }
+}
+/* Estilos generales */
+.project-details .row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.project-details .main-title {
+  margin-top: 20px;
+}
+
+.project-details .success-case {
+  margin-top: 20px;
+}
+
+.project-details .success-case li {
+  margin-bottom: 10px;
+}
+
+/* Media query para dispositivos pequeños */
+@media only screen and (max-width: 767px) {
+  .project-details .row {
+      flex-direction: column;
+  }
+
+  .project-details .col-xl-8 {
+      order: 2;
+  }
+
+  .project-details .col-xl-4 {
+      order: 1;
+  }
+}
