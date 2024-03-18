@@ -99,3 +99,21 @@
       order: 1;
   }
 }
+.banner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.banner img {
+  max-width: 100%;
+  height: auto;
+  /* Añade otros estilos según tus necesidades */
+}
+
+.banner h4 {
+  margin-top: 10px; /* Espacio entre la imagen y el título */
+  /* Añade otros estilos según tus necesidades */
+}
+
